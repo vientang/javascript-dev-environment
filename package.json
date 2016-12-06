@@ -1,0 +1,19 @@
+{
+  "name": "javascript-dev-environment",
+  "version": "1.0.0",
+  "description": "a starter kit for javascript projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vientang/javascript-dev-environment.git"
+  },
+  "author": "Vien Tang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vientang/javascript-dev-environment/issues"
+  },
+  "homepage": "https://github.com/vientang/javascript-dev-environment#readme"
+}
