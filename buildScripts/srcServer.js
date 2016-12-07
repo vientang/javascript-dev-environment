@@ -1,16 +1,16 @@
-var express = require('express');
-var path = require('path');
-var open = require('open');
+import express from 'express';
+import path from 'path';
+import open from 'open';
 
-var port = 3000;
+const port = 3000;
 
-var app = express();
+const app = express();
 
-app.get('/', function(request, response) {
+app.get('/', (request, response) => {
 	response.sendFile(path.join(__dirname, '../src/index.html'));
 });
 
-app.listen(port, function(err) {
+app.listen(port, err => {
 	if (err) {
 		console.log(err + ": " + "Couldn't connect to local host port " + port);
 	} else {
