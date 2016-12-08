@@ -2,8 +2,8 @@ import { expect } from 'chai';
 import jsdom from 'jsdom';
 import fs from 'fs';
 
-describe("Index Page", (done) => {
-	it("should say be titled Javascript Developer Platform", () => {
+describe("Index Page", () => {
+	it("should say be titled Javascript Developer Platform", (done) => {
 		const index = fs.readFileSync("./src/index.html", "utf-8");
 		// create a virtual dom with jsdom
 		jsdom.env(index, (err, window) => {
