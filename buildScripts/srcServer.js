@@ -4,6 +4,7 @@ import open from 'open';
 import webpack from 'webpack';
 import config from '../webpack.config.dev';
 
+
 /* eslint-disable no-console */
 const port = 3000;
 const app = express();
@@ -20,9 +21,9 @@ app.get('/', (request, response) => {
 
 app.get('/users', (request, response) => {
 	response.json([
-		{"id": 1, "firstName": "Bob", "lastName": "Smith", "email": "bob@you.com"},
-		{"id": 2, "firstName": "Cara", "lastName": "Fenu", "email": "cara@you.com"},
-		{"id": 3, "firstName": "Dan", "lastName": "Nuemann", "email": "dan@you.com"}
+		{"id": 1, "firstName": "Bob", "lastName": "Smith","email": "bob@you.com"},
+		{"id": 2, "firstName": "Cara", "lastName": "Fenu","email": "cara@you.com"},
+		{"id": 3, "firstName": "Dan", "lastName": "Neumann","email": "dan@you.com"}
 	]);
 });
 

@@ -29,5 +29,6 @@ export const schema = {
 				"required": ["id", "firstName", "lastName", "email"]
 			}
 		}
-	}
+	},
+	"required": ["users"]
 }
